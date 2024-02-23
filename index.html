@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bayesvision</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="nav">
+      <div class="video-container">
+        <video autoplay muted loop playsinline>
+          <source src="./video3.mp4" type="video/mp4" />
+        </video>
+        <div class="caption">
+          <h2>
+            Welcome to BayesVision, where cutting-edge technology meets Human
+            Action Intelligence.
+          </h2>
+          <br />
+          <button type="button" class="btnn" onclick="navigateToOurProduct()">
+            Explore More
+          </button>
+        </div>
+      </div>
+
+      <div class="navbar">
+        <div class="logo">
+          <img src="./Original on Transparent.png" alt="logo" />
+        </div>
+        <div class="navbar_list">
+          <ul>
+            <li><a href="#about_us">About Us</a></li>
+            <li><a href="#our_product">Our Product</a></li>
+            <li><a href="#our_services">Our Services</a></li>
+            <li><a href="#contact_us">Contact Us</a></li>
+          </ul>
+          
+        </div>
+        <div class="bars_icon"  id="barsIcon">
+          <i class="fa-solid fa-bars" onclick="toggleNavbar()"></i>
+        </div>
+      </div>
+    </section>
+
+    <section id="about_us">
+      <div class="second-heading">
+        Elevate Your Insight with Human<br />
+        Action Intelligence
+      </div>
+      <div class="second-paragraph">
+        <p>
+          Unleash the power of computer vision analytics with our groundbreaking
+          application that revolutionizes the way we understand and interpret
+          human actions. In a world driven by data, understanding human
+          behaviour is key to unlocking untapped potential and making informed
+          decisions. Our Computer Vision Analytics Application is designed to
+          provide you with unparalleled insights into human actions, enabling
+          you to elevate your understanding of various scenarios and
+          environments.
+        </p>
+      </div>
+    </section>
+
+    <section id="our_product">
+      <div class="our_product_container">
+        <h4 class="third-heading">Let's talk product</h4>
+        <p class="third-paragraph">
+          Our Computer Vision Analytics Application uses advanced artificial
+          intelligence and machine learning techniques to analyze video footage
+          and extract meaningful information about human Our application can
+          detect, track, and recognize people, faces, emotions, gestures, poses,
+          actions, and interactions in any video source, such as CCTV cameras,
+          drones, or smartphones. Our application can also generate
+          comprehensive reports and dashboards that provide quantitative and
+          qualitative data and insights on human behavior, such as demographics,
+          sentiment, attention, engagement, and more .
+        </p>
+      </div>
+      <div class="third_para_outer">
+        <div class="first_para">
+          <div class="icon">
+            <i class="uil uil-desktop-alt"></i>
+          </div>
+          <h4 class="heading_1">Surveillance and Security</h4>
+
+          <p class="container_para-1" id="containerPara-1">
+            Our Computer Vision Analytics Application takes security to a whole
+            new level. By providing real-time monitoring and detection of human
+            actions, it empowers security professionals to stay one step ahead.
+            <span id="moreContent-1" class="hide-1">
+              Whether you're safeguarding public spaces, critical
+              infrastructure, or corporate facilities, our application enhances
+              security measures by identifying potential threats with unmatched
+              precision. Experience the future of surveillance with technology
+              that doesn't just watch but understands.</span
+            >
+          </p>
+          <button onclick="toggleMoreContent1()">
+            <span id="buttonText-1"> See More</span>
+          </button>
+        </div>
+
+        <div class="second_para">
+          <div class="icon">
+            <i class="uil uil-shopping-cart-alt"></i>
+          </div>
+          <h4 class="heading_2">Retail Analytics</h4>
+          <p class="container_para-2" id="containerPara-2">
+            In the dynamic world of retail, understanding customer behaviour is
+            the key to success. Our application transforms retail analytics by
+            offering deep insights into customer actions, foot traffic
+            patterns,and overall shopping behaviour.<span
+              id="moreContent-2"
+              class="hide-2"
+              >Optimize your store layouts for improved sales performance,
+              enhance the customer experience, and make data-driven decisions
+              that drive your business forward. Elevate your retail strategy
+              with the power of Human Action Intelligence.
+            </span>
+          </p>
+          <button onclick="toggleMoreContent2()">
+            <span id="buttonText-2"> See More</span>
+          </button>
+        </div>
+        <div class="third_para">
+          <div class="icon">
+            <i class="uil uil-ambulance"></i>
+          </div>
+          <h4 class="heading_3">Healthcare and Video Conferencing</h4>
+          <p class="container_para-3" id="containerPara-3">
+            In the era of telemedicine and remote collaboration, our application
+            plays a pivotal role in transforming healthcare and video
+            conferencing.<span
+            id="moreContent-3"
+            class="hide-3"
+          > Enable remote patient monitoring with advanced
+            behaviour analysis capabilities, ensuring the well-being of patients
+            from the comfort of their homes.
+              Conduct video conferences with the added layer of understanding
+              human actions, enhancing communication and collaboration in
+              virtual environments. It's not just about connecting; it's about
+              connecting with insight.
+            </span>
+          </p>
+          <button onclick="toggleMoreContent3()">
+            <span id="buttonText-3"> See More</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="our_services">
+      <h4 class="sevices_heading">Why Choose Us</h4>
+      <div class="master_container">
+        <div class="container_1">
+          <div class="icon"><i class="uil uil-cloud-upload"></i></div>
+          <h4 class="container_heading">Cutting Edge Technology</h4>
+          <p class="container_para">
+            Our solution leverages the latest advancements in computer vision
+            technology. We stay ahead of the curve by continuously updating our
+            algorithms and models to provide accurate and real-time insights.
+          </p>
+        </div>
+        <div class="container_2">
+          <div class="icon"><i class="uil uil-atom"></i></div>
+          <h4 class="container_heading">Comprehensive Features</h4>
+          <p class="container_para">
+            Unlike other solutions, our application doesn't just scratch the
+            surface. It offers a wide range of features, including object
+            detection, facial recognition, image segmentation, and more. Whether
+            you need to monitor sec
+          </p>
+        </div>
+        <div class="container_3">
+          <div class="icon">
+            <i class="fa-regular fa-address-card"></i></i>
+          </div>
+          <h4 class="container_heading">User-Friendly Interface</h4>
+          <p class="container_para">
+            We prioritize user experience. Our intuitive interface makes it easy
+            for both technical and non-technical users to interact with the
+            application. No steep learning curves here!
+          </p>
+        </div>
+
+        <div class="container_4">
+          <div class="icon">
+            <i class="fa-sharp fa-thin fa-cube"></i>
+          </div>
+          <h4 class="container_heading">Scalability</h4>
+          <p class="container_para">
+            Our product grows with your business. From small-scale
+            implementations to enterprise-level deployments, our scalable
+            architecture ensures optimal performance.
+          </p>
+        </div>
+        <div class="container_5">
+          <div class="icon"><i class="fa-solid fa-check"></i></div>
+          <h4 class="container_heading">Customization</h4>
+          <p class="container_para">
+            We understand that every use case is unique. That's why our solution
+            allows for customization. You can fine-tune parameters, create
+            custom models, and integrate with your existing workflows
+            seamlessly.
+          </p>
+        </div>
+        <div class="container_6">
+          <div class="icon"><i class="fa-regular fa-face-smile"></i></div>
+          <h4 class="container_heading">Reliability</h4>
+          <p class="container_para">
+            Our robust infrastructure ensures high availability and minimal
+            downtime. You can rely on our application for critical tasks without
+            worrying about system failures.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="contact_us">
+      <h2 class="contact_us_heading">Keep in Touch</h2>
+      <div class="contact_us_container">
+        <div class="address">
+          <div class="icon"><i class="uil uil-map-marker"></i></div>
+          <h4 class="heading">Address</h4>
+          <p class="para">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+        </div>
+        <div class="phone">
+          <div class="icon"><i class="fa-regular fa-user"></i></div>
+          <h4 class="heading">Phone</h4>
+          <p class="para">+91-9591955065</p>
+        </div>
+        <div class="email">
+          <div class="icon"><i class="fa-regular fa-paper-plane"></i></div>
+          <h4 class="heading">Email</h4>
+          <p class="para">sales@bayes-vision.com</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <span id="footer-text-1"> © 2024, made with </span
+      ><span id="icon">
+        <i class="fa-solid fa-heart" style="color: #eb5e28"></i>
+      </span>
+      <span id="footer-text-2"> by Team Bayesvision</span>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
